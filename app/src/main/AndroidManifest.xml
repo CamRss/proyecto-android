@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sistema1151"
+        tools:targetApi="31">
+        <activity
+            android:name=".paginas.cajas.CajaInsertActivity"
+            android:exported="false"
+            android:label="@string/title_activity_caja_insert"
+            android:theme="@style/Theme.Sistema1151" />
+        <activity
+            android:name=".paginas.PerfilActivity"
+            android:exported="false"
+            android:label="@string/title_activity_perfil"
+            android:theme="@style/Theme.Sistema1151" />
+        <activity
+            android:name=".paginas.directores.DirectoresUpdateActivity"
+            android:exported="false"
+            android:label="@string/title_activity_directores_update"
+            android:theme="@style/Theme.Sistema1151" />
+        <activity
+            android:name=".paginas.directores.DirectoresInsertActivity"
+            android:exported="false"
+            android:label="@string/title_activity_directores_insert"
+            android:theme="@style/Theme.Sistema1151" />
+        <activity
+            android:name=".paginas.ProductoDetalleActivity"
+            android:exported="false"
+            android:label="@string/title_activity_producto_detalle"
+            android:theme="@style/Theme.Sistema1151" />
+        <activity
+            android:name=".SociosActivity"
+            android:exported="false"
+            android:label="@string/title_activity_socios"
+            android:theme="@style/Theme.Sistema1151" />
+        <activity
+            android:name=".MasInformacionActivity"
+            android:exported="false"
+            android:label="@string/title_activity_mas_informacion"
+            android:theme="@style/Theme.Sistema1151" />
+        <activity
+            android:name=".paginas.directores.DirectoresActivity"
+            android:exported="true"
+            android:label="@string/title_activity_directores"
+            android:theme="@style/Theme.Sistema1151" /> <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name=".paginas.ProductosActivity"
+            android:exported="true"
+            android:label="@string/title_activity_productos"
+            android:theme="@style/Theme.Sistema1151" />
+        <activity
+            android:name=".paginas.cajas.CajaActivity"
+            android:exported="false"
+            android:label="@string/title_activity_caja"
+            android:theme="@style/Theme.Sistema1151" />
+        <activity
+            android:name=".paginas.AreaClientesActivity"
+            android:exported="false"
+            android:label="@string/title_activity_area_clientes"
+            android:theme="@style/Theme.Sistema1151" />
+        <activity
+            android:name=".paginas.TiendaActivity"
+            android:exported="false"
+            android:label="@string/title_activity_tienda"
+            android:theme="@style/Theme.Sistema1151" />
+        <activity
+            android:name=".paginas.EmpleadosActivity"
+            android:exported="false"
+            android:label="@string/title_activity_empleados"
+            android:theme="@style/Theme.Sistema1151" />
+        <activity
+            android:name=".paginas.ProveedoresActivity"
+            android:exported="false"
+            android:label="@string/title_activity_proveedores"
+            android:theme="@style/Theme.Sistema1151" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Sistema1151">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EscritorioActivity"
+            android:exported="false"
+            android:label="@string/title_activity_escritorio"
+            android:theme="@style/Theme.Sistema1151" />
+        <activity
+            android:name=".TerminosActivity"
+            android:exported="false"
+            android:label="@string/title_activity_terminos"
+            android:theme="@style/Theme.Sistema1151" />
+        <activity
+            android:name=".EmpezarActivity"
+            android:exported="false"
+            android:label="@string/title_activity_empezar"
+            android:theme="@style/Theme.Sistema1151" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Sistema1151" />
+    </application>
+
+</manifest>
