@@ -117,7 +117,8 @@ class SociosActivity : ComponentActivity() {
                 Column {
                 TopAppBar(
                     title = {   Text(text = stringResource(id = R.string.title_activity_socios)) },
-                        colors = TopAppBarDefaults.smallTopAppBarColors(
+                    //cambie de Small a topAppBarColors
+                        colors = TopAppBarDefaults.topAppBarColors(
                             containerColor = MaterialTheme.colorScheme.primaryContainer
 
                         )

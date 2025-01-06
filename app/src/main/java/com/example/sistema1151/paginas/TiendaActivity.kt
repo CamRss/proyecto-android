@@ -81,7 +81,7 @@ class TiendaActivity : ComponentActivity() {
                 Column {
                     TopAppBar(
                         title = {   Text(text = stringResource(id = R.string.title_activity_tienda)) },
-                        colors = TopAppBarDefaults.smallTopAppBarColors(
+                        colors = TopAppBarDefaults.topAppBarColors(
                             containerColor = MaterialTheme.colorScheme.secondaryContainer
                         )
                     )

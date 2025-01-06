@@ -81,7 +81,7 @@ class ProveedoresActivity : ComponentActivity() {
                 Column {
                     TopAppBar(
                         title = {   Text(text = stringResource(id = R.string.title_activity_proveedores)) },
-                        colors = TopAppBarDefaults.smallTopAppBarColors(
+                        colors = TopAppBarDefaults.topAppBarColors(
                             containerColor = MaterialTheme.colorScheme.primaryContainer
                         )
                     )

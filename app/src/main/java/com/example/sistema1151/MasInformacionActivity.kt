@@ -33,6 +33,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.example.sistema1151.ui.theme.Sistema1151Theme
 
+
 class MasInformacionActivity : ComponentActivity() {
     @OptIn(ExperimentalMaterial3Api::class)
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -42,7 +43,7 @@ class MasInformacionActivity : ComponentActivity() {
                 Scaffold(topBar = {
                     TopAppBar(
                         title = { Text(text = stringResource(id = R.string.title_activity_mas_informacion)) },
-                        colors = TopAppBarDefaults.smallTopAppBarColors(
+                        colors = TopAppBarDefaults.topAppBarColors(
                             containerColor = MaterialTheme.colorScheme.tertiary
                         ),
                         navigationIcon = {
